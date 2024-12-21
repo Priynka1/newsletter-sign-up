@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: hsl(235, 18%, 26%);
+}
+
+#main-div {
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    height: auto;
+    width: 45%;
+    margin: 4em auto;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.div-one {
+   width: 50%;
+   height: 100%;
+   padding: 1.5em;
+}
+
+.div-two {
+    height: 100%;
+    width: 46%;
+
+}
+.mobile-img{
+    display: none;
+}
+
+
+.desktop-img {
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    font-size: 0.6em;
+    line-height: 20px;
+    
+}
+.div-one>h1+p {
+    margin-top: 10px;
+}
+
+.input {
+    margin-top: 15px;
+}
+
+button {
+    padding: 1.2em;
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+input {
+    padding: 1.2em;
+    border: 1px solid hsl(231, 7%, 60%);
+    border-radius: 5px;
+    width: 100%;
+    font-size: 0.6em;
+
+}
+
+#checkicon {
+    border-radius: 50%;
+    padding: 0.5em;
+    height: 2em;
+    font-size: 0.5em;
+    margin-top: 2px;
+    background-color: hsl(4, 100%, 67%);
+    color: hsl(0, 0%, 100%);
+}
+
+.icon-div {
+    display: flex;
+    gap: 1em;
+    margin-top: 10px;
+}
+@media screen and (max-width:431px){
+    #main-div{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        flex-direction: column-reverse;
+        border-radius: 0px 0px 0px 0px;
+        padding: 0px;
+    }
+    .desktop-img{
+        display: none;
+
+    }
+    .mobile-img{
+        display: block;
+        width: 100%;
+    }
+    .div-one{
+    width: 100%;
+    padding: 2em;
+    }
+    h1{
+        font-size: 2.5em;
+        margin-top: 0.2em;
+    }
+    h1~p{
+        font-size: 0.95em;  
+    }
+
+    .div-two{
+        width: 100%;
+    }
+    .icon-div{
+        margin-top: 0.9em;
+    }
+    .icon-div p{
+        font-size: 0.95em;
+    }
+    .input{
+        font-size: 0.9em;
+        margin-top: 2em;
+    }
+    input{
+        padding: 1.2em;
+        font-size: 0.9em;
+        margin-top: 0.5em;
+    }
+    button{
+        font-size: 1em;
+        margin-top: 1em;
+    }
+
+
+}
+
+@media screen and (max-width:375px){
+    #main-div{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        flex-direction: column-reverse;
+        border-radius: 0px 0px 0px 0px;
+        padding: 0px;
+    }
+    .desktop-img{
+        display: none;
+
+    }
+    .mobile-img{
+        display: block;
+        width: 100%;
+    }
+    .div-one{
+    width: 100%;
+    padding: 2em;
+    }
+    h1{
+        font-size: 2.5em;
+        margin-top: 0.2em;
+    }
+    h1~p{
+        font-size: 0.95em;  
+    }
+
+    .div-two{
+        width: 100%;
+    }
+    .icon-div{
+        margin-top: 0.9em;
+    }
+    .icon-div p{
+        font-size: 0.95em;
+    }
+    .input{
+        font-size: 0.9em;
+        margin-top: 2em;
+    }
+    input{
+        padding: 1.2em;
+        font-size: 0.9em;
+        margin-top: 0.5em;
+    }
+    button{
+        font-size: 1em;
+        margin-top: 1em;
+    }
+
+
+}
